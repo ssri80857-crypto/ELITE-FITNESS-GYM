@@ -1,0 +1,13 @@
+{
+  "name": "FORGE ELITE FITNESS",
+  "description": "The pinnacle of AI-driven performance tracking and fitness architecture.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "pwa": {
+    "enabled": true,
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#4f46e5"
+  }
+}

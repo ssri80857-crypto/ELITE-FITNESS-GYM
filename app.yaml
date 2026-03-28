@@ -1,0 +1,17 @@
+
+runtime: python39
+
+handlers:
+# Handle the root and static files
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+
+- url: /(.*)
+  static_files: dist/\1
+  upload: dist/(.*)
+
+# Fallback to index.html for SPA routing
+- url: /.*
+  static_files: dist/index.html
+  upload: dist/index.html
